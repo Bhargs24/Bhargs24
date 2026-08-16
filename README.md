@@ -1,8 +1,6 @@
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:8B5CF6,100:F45B4E&height=150&section=header" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:F45B4E&height=190&section=header&text=Bhargav%20Raghavendra&fontColor=ffffff&fontSize=46&fontAlignY=40&desc=Founder%20and%20builder&descAlignY=62&descSize=17" width="100%"/>
-
-</div>
+# Bhargav Raghavendra
 
 Founder at Wivme. I take a vague problem and come back with the shipped thing: the research, the design, and the code. I built Wivme's product end to end on my own, two Flutter apps, a React dashboard, a Go backend, and the Python engine that generates its content. Two published patents. Before this, VR and AR for hospitals and classrooms.
 
