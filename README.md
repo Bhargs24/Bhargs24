@@ -1,6 +1,6 @@
 # Bhargav Raghavendra
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1500&color=6346E6&vCenter=true&width=600&height=36&lines=Founder+%40+Wivme;I+ship+whole+products+solo;Two+patents+in+AI+and+XR" alt="" />
+**Founder @ Wivme** &nbsp;·&nbsp; I ship whole products solo &nbsp;·&nbsp; Two patents in AI and XR
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-6346E6?style=flat-square&logo=vercel&logoColor=white)](https://bhargavraghavendra.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6346E6?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargav24)
