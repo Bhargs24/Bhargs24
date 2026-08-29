@@ -1,18 +1,14 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?v=2">
-  <img src="assets/hero-dark.svg?v=2" width="100%" alt="Bhargav Raghavendra. I take a vague problem and come back with the shipped thing.">
-</picture>
+# Bhargav Raghavendra
 
-<br>
+### I take a vague problem and come back with the shipped thing.
+
+Founder of **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents &nbsp;·&nbsp; I build the whole product, mostly on my own
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-6346E6?style=for-the-badge&logo=vercel&logoColor=white)](https://bhargavraghavendra.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6346E6?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargav24)
 [![Email](https://img.shields.io/badge/Email-6346E6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhargavrag16@gmail.com)
-&nbsp;
-[![Wivme](https://img.shields.io/badge/Wivme-0E0B1F?style=for-the-badge&logoColor=white)](https://wivmeai.com)
 
 </div>
 
@@ -118,7 +114,7 @@ A technician points a headset at a machine, sees its components as holographic o
 
 An audio-first retention layer for K-12. Schools teach, students forget roughly two thirds of it within a day, and nothing in between measures whether it stuck. Wivme models each concept's decay per student and schedules recall before it is lost.
 
-Built across five surfaces and eight repositories, largely solo, for about ₹1.3 lakh: **[the site](https://github.com/Bhargs24/WivmeWebsite)** · [wivmeai.com](https://wivmeai.com)
+Built across five surfaces and eight repositories, largely solo: **[the site](https://github.com/Bhargs24/WivmeWebsite)** · [wivmeai.com](https://wivmeai.com)
 
 The prototypes it grew out of are public too: **[phase 1](https://github.com/Bhargs24/Wisme-DevPhase1)** · **[phase 2](https://github.com/Bhargs24/Wisme-Dev2)** · **[the research build](https://github.com/Bhargs24/Wisme_ResearchApp2)** · **[research plus the data pipeline](https://github.com/Bhargs24/wisme_researchapp)**
 
