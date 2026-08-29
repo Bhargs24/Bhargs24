@@ -20,6 +20,14 @@ I built Wivme's product end to end on my own: two Flutter apps, a React dashboar
 
 The thread through all of it is the same move: **find the thing nobody measures, build the instrument that measures it, then follow what it says even when it kills the plan.**
 
+<a href="#selected-work">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/projects-light.svg">
+  <img src="panels/projects-dark.svg" width="100%" alt="Selected projects: plumbline, keel, beachhead, rqsm-engine, Unified Operational Data Pipeline, VRChemLab">
+</picture>
+</a>
+
 <br>
 
 ## Selected work
