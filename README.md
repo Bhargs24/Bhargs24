@@ -84,84 +84,33 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </table>
 
 <br>
+## The one worth reading about
 
-## Selected work
+**[plumbline](https://github.com/Bhargs24/plumbline)** started as a question: when you reword a request, does an AI agent still run the controls it is supposed to?
 
-<table>
-<tr><td width="27%" valign="top">
+It does not, reliably. An agent reached the correct outcome on 99.4% of runs and skipped a mandatory duplicate check on a third of the runs of the same invoice. The payment succeeds. The confirmation is byte-identical to a correct run. No output-level eval will ever show it.
 
-### [plumbline](https://github.com/Bhargs24/plumbline)
+```
+no retry                          with retry
+────────────────────────────      ────────────────────────────
+fetch_invoice                     fetch_invoice
+match_purchase_order  ✗ 503       match_purchase_order  ✗ 503
+check_duplicate                   match_purchase_order  ✓ retried
+check_vendor_status               check_duplicate
+flag_exception    ← WRONG         check_vendor_status
+post_audit_log                    schedule_payment £4,500 ✓
 
-`Python` · `Apache-2.0`
+held a clean invoice              paid correctly
+```
 
-[Read the report ↗](https://bhargs24.github.io/plumbline/report.html)
+Then the part I did not plan for. My headline result said the deterministic executor lost by 17 points, significant at p = 0.0029. Before publishing I checked whether the baseline was fair, and it was not: no production finance system treats a single 503 as fatal, and the executor I had built had no retry policy. Three lines of retry logic closed the entire gap.
 
-</td><td valign="top">
+So the finding became a smaller and more useful one: **a plausible, significant, well-visualised effect can be entirely an artifact of a baseline somebody chose**, and no amount of statistical rigour catches that. The intervals were right. The permutation test was right. The baseline was a strawman. Only domain knowledge finds that.
 
-**Evidence that AI-operated financial controls actually ran.** An agent can reach the correct outcome on 99.4% of runs and still skip a mandatory duplicate check on a third of them. The payment succeeds, the confirmation is byte-identical to a correct run, and no output-level eval will ever show it.
+I retracted the headline, kept the flawed arm as a permanent control so the effect can be reproduced and attributed, and committed all **2,082 runs** so anyone can recheck every number without spending a cent.
 
-So I built the harness that catches it: declare the invariants a run must never violate, attack them with rewordings a correct agent must be indifferent to, and name the step where it broke, with a confidence interval.
+[Read the full report ↗](https://bhargs24.github.io/plumbline/report.html)
 
-Then my own headline result turned out to be an artifact of an unfair baseline. I retracted it, fixed the baseline, re-ran all 768 trials, and published the correction instead of the finding I wanted. **2,082 live runs are committed**, so anyone can recheck every published number without spending a cent.
-
-</td></tr>
-<tr><td valign="top">
-
-### [keel](https://github.com/Bhargs24/keel)
-
-`Python` · open source
-
-</td><td valign="top">
-
-**An AI founding team in your terminal.** One idea in, a shipped product out: market research, the business case, the product spec, a design system, the architecture, a feasibility gate, then it drives Claude Code or Cursor to write and secure the actual code.
-
-It is built for the part everyone skips, which is knowing what to build and why, in what order, and proving it works before real users arrive. One rule never bends: it has to be genuinely better than what already exists, never a clone.
-
-</td></tr>
-<tr><td valign="top">
-
-### [beachhead](https://github.com/Bhargs24/beachhead)
-
-`Python` · `MIT`
-
-</td><td valign="top">
-
-**A market thesis in, a ranked target list out.** A company's open roles are the cheapest honest read on what it is building right now, so this scores a market off live job postings.
-
-Every account anchors to one named open role and links straight to it, which makes the score evidence you can click rather than a black box. A real run maps 32 physical-AI and robotics companies across eight segments in about a minute. The thesis lives in a config file, so it retargets to a new sector without touching code.
-
-</td></tr>
-<tr><td valign="top">
-
-### [rqsm-engine](https://github.com/Bhargs24/rqsm-engine)
-
-`Python` · `FastAPI`
-
-Patent IN202641086881
-
-</td><td valign="top">
-
-**The basis of a published patent.** LLM tutors are easy to demo and impossible to audit: ask for the same chapter twice and you get two different lessons. A school cannot build on "usually good."
-
-So the control flow moves off the model into a deterministic state machine. The model generates language, the machine decides what happens next. **Byte-identical output across 40 replay runs**, and every transition logged with a reason code.
-
-</td></tr>
-<tr><td valign="top">
-
-### [Unified Operational Data Pipeline](https://github.com/Bhargs24/Unified-Operational-Data-Pipeline)
-
-`Python`
-
-</td><td valign="top">
-
-**One source of truth across tools that disagree.** A deal is Closed-Won in the CRM, its invoice is Unpaid in accounting, and its project still shows Started in the PM tool. Automations that blindly sync those three just spread the wrong state faster.
-
-This sits above them, detects the contradictions, and resolves them under explicit ownership rules. Invoice status resolves automatically; deal status is held for a human, because revenue recognition should not be automated away.
-
-</td></tr>
-</table>
-
-<br>
 
 ## Patents
 
