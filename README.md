@@ -132,19 +132,7 @@ Alongside these, a year of surgical-training VR at a healthcare startup in Londo
 
 <br>
 
-## What that adds up to
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="panels/languages-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="panels/languages-light.svg">
-  <img src="panels/languages-dark.svg" width="100%" alt="Languages by share of authored code">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Bhargs24&theme=dark&hide_border=true&background=0D1117&ring=6346E6&fire=6346E6&currStreakLabel=6346E6&sideLabels=8B949E&dates=8B949E">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Bhargs24&hide_border=true&ring=6346E6&fire=6346E6&currStreakLabel=6346E6">
-  <img src="https://streak-stats.demolab.com/?user=Bhargs24&theme=dark&hide_border=true&background=0D1117&ring=6346E6&fire=6346E6&currStreakLabel=6346E6" width="100%" alt="Contribution streak">
-</picture>
+## Contribution activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bhargs24/Bhargs24/output/github-contribution-grid-snake-dark.svg">
