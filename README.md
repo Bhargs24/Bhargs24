@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" width="100%" alt="Bhargav Raghavendra. I take a vague problem and come back with the shipped thing.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?v=2">
+  <img src="assets/hero-dark.svg?v=2" width="100%" alt="Bhargav Raghavendra. I take a vague problem and come back with the shipped thing.">
 </picture>
 
 <br>
