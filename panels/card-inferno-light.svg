@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="132" viewBox="0 0 440 132" role="img" aria-label="Inferno">
+<rect x="0.5" y="0.5" width="439" height="131" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/>
+<svg x="16" y="17" width="16" height="16" viewBox="0 0 16 16" fill="#59636E"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.25.25 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+<text x="40" y="30" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Inferno</text>
+<text x="16" y="56" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">A VR fire drill you can fail, graded against the</text>
+<text x="16" y="73" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">building's real evacuation protocol.</text>
+<rect x="16" y="96" width="232" height="22" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text text-anchor="middle" x="132" y="111" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500">Team build, I did the XR layer</text>
+<circle cx="396" cy="107" r="5.5" fill="#68217A"/>
+<text x="424" y="111" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">C#</text>
+</svg>
