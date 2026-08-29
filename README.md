@@ -84,6 +84,7 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </table>
 
 <br>
+
 ## The one worth reading about
 
 **[plumbline](https://github.com/Bhargs24/plumbline)** started as a question: when you reword a request, does an AI agent still run the controls it is supposed to?
