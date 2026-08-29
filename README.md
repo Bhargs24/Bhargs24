@@ -20,13 +20,68 @@ I built Wivme's product end to end on my own: two Flutter apps, a React dashboar
 
 The thread through all of it is the same move: **find the thing nobody measures, build the instrument that measures it, then follow what it says even when it kills the plan.**
 
-<a href="#selected-work">
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/Bhargs24/plumbline">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="panels/projects-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="panels/projects-light.svg">
-  <img src="panels/projects-dark.svg" width="100%" alt="Selected projects: plumbline, keel, beachhead, rqsm-engine, Unified Operational Data Pipeline, VRChemLab">
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-plumbline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-plumbline-light.svg">
+  <img src="panels/card-plumbline-dark.svg" width="100%" alt="plumbline">
 </picture>
 </a>
+</td>
+<td width="50%">
+<a href="https://github.com/Bhargs24/keel">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-keel-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-keel-light.svg">
+  <img src="panels/card-keel-dark.svg" width="100%" alt="keel">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/Bhargs24/rqsm-engine">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-rqsm-engine-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-rqsm-engine-light.svg">
+  <img src="panels/card-rqsm-engine-dark.svg" width="100%" alt="rqsm-engine">
+</picture>
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/Bhargs24/beachhead">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-beachhead-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-beachhead-light.svg">
+  <img src="panels/card-beachhead-dark.svg" width="100%" alt="beachhead">
+</picture>
+</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/Bhargs24/Unified-Operational-Data-Pipeline">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-unified-operational-data-pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-unified-operational-data-pipeline-light.svg">
+  <img src="panels/card-unified-operational-data-pipeline-dark.svg" width="100%" alt="Unified-Operational-Data-Pipeline">
+</picture>
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/Bhargs24/Inferno">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-inferno-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-inferno-light.svg">
+  <img src="panels/card-inferno-dark.svg" width="100%" alt="Inferno">
+</picture>
+</a>
+</td>
+</tr>
+</table>
 
 <br>
 
