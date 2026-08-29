@@ -10,6 +10,8 @@ Founder of **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6346E6?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargav24)
 [![Email](https://img.shields.io/badge/Email-6346E6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhargavrag16@gmail.com)
 
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Contribution calendar in 3D">
+
 </div>
 
 ---
@@ -110,17 +112,11 @@ A technician points a headset at a machine, sees its components as holographic o
 
 <br>
 
-## Wivme
+## Also built
 
-An audio-first retention layer for K-12. Schools teach, students forget roughly two thirds of it within a day, and nothing in between measures whether it stuck. Wivme models each concept's decay per student and schedules recall before it is lost.
+**[Wivme](https://wivmeai.com)** · an audio-first retention layer for K-12. Schools teach, students forget roughly two thirds of it within a day, and nothing in between measures whether it stuck. Wivme models each concept's decay per student and schedules recall before it is lost.
 
-Built across five surfaces and eight repositories, largely solo: **[the site](https://github.com/Bhargs24/WivmeWebsite)** · [wivmeai.com](https://wivmeai.com)
-
-The prototypes it grew out of are public too: **[phase 1](https://github.com/Bhargs24/Wisme-DevPhase1)** · **[phase 2](https://github.com/Bhargs24/Wisme-Dev2)** · **[the research build](https://github.com/Bhargs24/Wisme_ResearchApp2)** · **[research plus the data pipeline](https://github.com/Bhargs24/wisme_researchapp)**
-
-<br>
-
-## Immersive work
+Five surfaces and eight repositories, largely solo. [The site](https://github.com/Bhargs24/WivmeWebsite), and the prototypes it grew from: **[phase 1](https://github.com/Bhargs24/Wisme-DevPhase1)** · **[phase 2](https://github.com/Bhargs24/Wisme-Dev2)** · **[the research build](https://github.com/Bhargs24/Wisme_ResearchApp2)** · **[research plus the data pipeline](https://github.com/Bhargs24/wisme_researchapp)**
 
 **[VRChemLab](https://github.com/Bhargs24/VRChemLab)** · real chemistry experiments in VR for schools with no lab. Best AR/VR Project, VIT 2025.
 **[Inferno](https://github.com/Bhargs24/Inferno)** · a fire drill you can fail, graded against the building's real evacuation protocol. Team build, I did the XR interaction layer. Best UI/UX, Yantra 2025.
@@ -136,12 +132,18 @@ Alongside these, a year of surgical-training VR at a healthcare startup in Londo
 
 <br>
 
-## Contributions
+## What that adds up to
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green.svg">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar">
+  <source media="(prefers-color-scheme: dark)" srcset="panels/languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/languages-light.svg">
+  <img src="panels/languages-dark.svg" width="100%" alt="Languages by share of authored code">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Bhargs24&theme=dark&hide_border=true&background=0D1117&ring=6346E6&fire=6346E6&currStreakLabel=6346E6&sideLabels=8B949E&dates=8B949E">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Bhargs24&hide_border=true&ring=6346E6&fire=6346E6&currStreakLabel=6346E6">
+  <img src="https://streak-stats.demolab.com/?user=Bhargs24&theme=dark&hide_border=true&background=0D1117&ring=6346E6&fire=6346E6&currStreakLabel=6346E6" width="100%" alt="Contribution streak">
 </picture>
 
 <picture>
