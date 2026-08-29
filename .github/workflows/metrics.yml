@@ -23,7 +23,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/code.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Bhargs24
           base: ""
           config_timezone: Asia/Kolkata
@@ -47,7 +47,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/activity.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Bhargs24
           base: ""
           config_timezone: Asia/Kolkata
