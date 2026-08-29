@@ -1,14 +1,18 @@
 <div align="center">
 
-# Bhargav Raghavendra
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-dark.svg" width="100%" alt="Bhargav Raghavendra. I take a vague problem and come back with the shipped thing.">
+</picture>
 
-### I take a vague problem and come back with the shipped thing.
-
-Founder of **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents &nbsp;·&nbsp; I build the whole product, mostly on my own
+<br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-6346E6?style=for-the-badge&logo=vercel&logoColor=white)](https://bhargavraghavendra.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6346E6?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargav24)
 [![Email](https://img.shields.io/badge/Email-6346E6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhargavrag16@gmail.com)
+&nbsp;
+[![Wivme](https://img.shields.io/badge/Wivme-0E0B1F?style=for-the-badge&logoColor=white)](https://wivmeai.com)
 
 </div>
 
