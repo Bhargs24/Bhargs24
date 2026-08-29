@@ -123,11 +123,10 @@ The prototypes it grew out of are public too: **[phase 1](https://github.com/Bha
 ## Immersive work
 
 **[VRChemLab](https://github.com/Bhargs24/VRChemLab)** · real chemistry experiments in VR for schools with no lab. Best AR/VR Project, VIT 2025.
-**[Inferno](https://github.com/Bhargs24/Inferno)** · a fire drill you can fail, graded against the building's actual evacuation protocol.
-**[Xposure](https://github.com/Bhargs24/Xposure)** · exposure therapy where the therapist turns the intensity dial live, mid-session.
-**[TexAR](https://github.com/Bhargs24/TextBookAR-Hackwars)** · NCERT textbook pages become markers that project interactive 3D models.
+**[Inferno](https://github.com/Bhargs24/Inferno)** · a fire drill you can fail, graded against the building's real evacuation protocol. Team build, I did the XR interaction layer. Best UI/UX, Yantra 2025.
+**[Xposure](https://github.com/Bhargs24/Xposure)** · exposure therapy where the therapist turns the intensity dial live, mid-session. Team build, I did the XR interaction and the therapist UI.
 
-Alongside these, a year of surgical-training VR at a healthcare startup, validated with UCLH clinicians in London.
+Alongside these, a year of surgical-training VR at a healthcare startup in London, validated with UCLH clinicians.
 
 <br>
 
