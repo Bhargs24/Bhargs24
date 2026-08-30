@@ -16,7 +16,7 @@ Founder of **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents
 
 ---
 
-I built Wivme's product end to end on my own: two Flutter apps, a React dashboard, a Go backend, and the Python retrieval engine behind it, then took it into a live school pilot. Before that, VR for hospitals and AR for classrooms. Two published patents, one on making LLM orchestration deterministic and auditable.
+I built Wivme's product end to end on my own: two Flutter apps, a React dashboard, a Go backend, and the Python retrieval engine behind it, then shipped it to real Grade 8 students. Before that, VR for hospitals and AR for classrooms. Two published patents, one on making LLM orchestration deterministic and auditable.
 
 The thread through all of it is the same move: **find the thing nobody measures, build the instrument that measures it, then follow what it says even when it kills the plan.**
 
