@@ -4,8 +4,8 @@
 <text x="40" y="30" fill="#0969DA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Inferno</text>
 <text x="16" y="56" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">A VR fire drill you can fail, graded against the</text>
 <text x="16" y="73" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">building's real evacuation protocol.</text>
-<rect x="16" y="96" width="232" height="22" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/>
-<text text-anchor="middle" x="132" y="111" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500">Team build, I did the XR layer</text>
+<rect x="16" y="96" width="183" height="22" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text text-anchor="middle" x="107" y="111" fill="#1F2328" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500">Best UI/UX, Yantra 2025</text>
 <circle cx="396" cy="107" r="5.5" fill="#68217A"/>
 <text x="424" y="111" fill="#59636E" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">C#</text>
 </svg>
