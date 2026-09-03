@@ -24,7 +24,7 @@ CARDS = [
     ("rqsm-engine", "Deterministic LLM orchestration. Control flow leaves the model, so sessions replay exactly.", "Patent IN202641086881"),
     ("beachhead", "A market thesis in, a ranked target list out, scored from live hiring signal.", "32 companies mapped"),
     ("Unified-Operational-Data-Pipeline", "One source of truth across tools that contradict each other, resolved by ownership rules.", "Governance layer"),
-    ("Inferno", "A VR fire drill you can fail, graded against the building's real evacuation protocol.", "Team build, I did the XR layer"),
+    ("Inferno", "A VR fire drill you can fail, graded against the building's real evacuation protocol.", "Best UI/UX, Yantra 2025"),
 ]
 
 LANG_COLOUR = {
