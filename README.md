@@ -23,6 +23,15 @@ The thread through all of it is the same move: **find the thing nobody measures,
 <table>
 <tr>
 <td width="50%">
+<a href="https://github.com/Bhargs24/trespass">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="panels/card-trespass-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="panels/card-trespass-light.svg">
+  <img src="panels/card-trespass-dark.svg" width="100%" alt="trespass">
+</picture>
+</a>
+</td>
+<td width="50%">
 <a href="https://github.com/Bhargs24/plumbline">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="panels/card-plumbline-dark.svg">
@@ -31,6 +40,8 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%">
 <a href="https://github.com/Bhargs24/keel">
 <picture>
@@ -40,8 +51,6 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%">
 <a href="https://github.com/Bhargs24/rqsm-engine">
 <picture>
@@ -51,6 +60,8 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%">
 <a href="https://github.com/Bhargs24/beachhead">
 <picture>
@@ -60,8 +71,6 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </picture>
 </a>
 </td>
-</tr>
-<tr>
 <td width="50%">
 <a href="https://github.com/Bhargs24/Unified-Operational-Data-Pipeline">
 <picture>
@@ -71,6 +80,8 @@ The thread through all of it is the same move: **find the thing nobody measures,
 </picture>
 </a>
 </td>
+</tr>
+<tr>
 <td width="50%">
 <a href="https://github.com/Bhargs24/Inferno">
 <picture>
@@ -89,6 +100,23 @@ The thread through all of it is the same move: **find the thing nobody measures,
 
 <table>
 <tr><td width="27%" valign="top">
+
+### [trespass](https://github.com/Bhargs24/trespass)
+
+`Python` · `MIT`
+
+`pip install trespass-rls`
+
+</td><td valign="top">
+
+**Prove your tenants can't read each other's data.** Broken access control is the largest class of flaw in apps built by people who can't read the code, and it is the one class every scanner structurally cannot catch. Deciding whether user B *should* reach user A's row means knowing who is supposed to see what. That is intent, and intent is not in the code.
+
+So trespass takes it in six lines of config, compiles every policy into three-valued logic with an explicit `NULL`, and asks a solver whether what you meant and what the database enforces can disagree. When they can, it prints the query that proves it, ready to paste into psql. When they can't, that silence is a proof.
+
+**A SQL parser and a decision procedure written from scratch on the standard library**, zero runtime dependencies, differential-tested against Z3 across 400 generated formulas. It exits non-zero, so a broken policy fails CI the way a failing test does.
+
+</td></tr>
+<tr><td valign="top">
 
 ### [plumbline](https://github.com/Bhargs24/plumbline)
 
@@ -178,6 +206,8 @@ A technician points a headset at a machine, sees its components as holographic o
 ## Also built
 
 **[Wivme](https://wivmeai.com)** · an audio-first retention layer for K-12. Schools teach, students forget roughly two thirds of it within a day, and nothing in between measures whether it stuck. Wivme models each concept's decay per student and schedules recall before it is lost.
+
+Two apps are live on the App Store, published by WIVMEAI PRIVATE LIMITED: **[Wivme Student](https://apps.apple.com/app/id6783256650)** and **[Wivme Parent](https://apps.apple.com/app/id6783869622)**.
 
 Five surfaces and eight repositories, largely solo. [The site](https://github.com/Bhargs24/WivmeWebsite), and the prototypes it grew from: **[phase 1](https://github.com/Bhargs24/Wisme-DevPhase1)** · **[phase 2](https://github.com/Bhargs24/Wisme-Dev2)** · **[the research build](https://github.com/Bhargs24/Wisme_ResearchApp2)** · **[research plus the data pipeline](https://github.com/Bhargs24/wisme_researchapp)**
 

@@ -19,6 +19,7 @@ OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 # Chosen on what is actually in each repo, not on what sounds good.
 # note = a fact the card can show that a reader would otherwise have to dig for.
 CARDS = [
+    ("trespass", "Proves your tenants cannot read each other's rows, or prints the query showing they can.", "Solver, zero dependencies"),
     ("plumbline", "Proves an AI agent really ran its financial controls, and names the step where it did not.", "2,082 committed runs"),
     ("keel", "An AI founding team in your terminal. One idea to a planned, designed, tested product.", "8-stage pipeline"),
     ("rqsm-engine", "Deterministic LLM orchestration. Control flow leaves the model, so sessions replay exactly.", "Patent IN202641086881"),
