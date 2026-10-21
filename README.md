@@ -4,7 +4,7 @@
 
 ### I take a vague problem and come back with the shipped thing.
 
-Founder of **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents &nbsp;·&nbsp; I build the whole product, mostly on my own
+Forward Deployed Founder, **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two published patents &nbsp;·&nbsp; I build the whole product, mostly on my own
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-6346E6?style=for-the-badge&logo=vercel&logoColor=white)](https://bhargavraghavendra.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6346E6?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhargav24)
