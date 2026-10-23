@@ -16,7 +16,7 @@ Forward Deployed Founder, **[Wivme](https://wivmeai.com)** &nbsp;·&nbsp; two pu
 
 ---
 
-I built Wivme's product end to end on my own: two Flutter apps, a React dashboard, a Go backend, and the Python retrieval engine behind it, then shipped it to real Grade 8 students. Before that, VR for hospitals and AR for classrooms. Two published patents, one on making LLM orchestration deterministic and auditable.
+I built Wivme's product end to end, largely on my own: two Flutter apps, a React dashboard, a Go backend, and the Python retrieval engine behind it, then shipped it to real Grade 8 students. Before that, VR for hospitals and AR for classrooms. Two published patents, one on making LLM orchestration deterministic and auditable.
 
 The thread through all of it is the same move: **find the thing nobody measures, build the instrument that measures it, then follow what it says even when it kills the plan.**
 
@@ -113,7 +113,7 @@ The thread through all of it is the same move: **find the thing nobody measures,
 
 So trespass takes it in six lines of config, compiles every policy into three-valued logic with an explicit `NULL`, and asks a solver whether what you meant and what the database enforces can disagree. When they can, it prints the query that proves it, ready to paste into psql. When they can't, that silence is a proof.
 
-**A SQL parser and a decision procedure written from scratch on the standard library**, zero runtime dependencies, differential-tested against Z3 across 400 generated formulas. It exits non-zero, so a broken policy fails CI the way a failing test does.
+**A SQL parser and a decision procedure written from scratch on the standard library**, zero runtime dependencies, differential-tested against Z3 across 3,200 generated formulas (400 seeds, eight per seed). It exits non-zero, so a broken policy fails CI the way a failing test does.
 
 </td></tr>
 <tr><td valign="top">
@@ -207,7 +207,7 @@ A technician points a headset at a machine, sees its components as holographic o
 
 **[Wivme](https://wivmeai.com)** · an audio-first retention layer for K-12. Schools teach, students forget roughly two thirds of it within a day, and nothing in between measures whether it stuck. Wivme models each concept's decay per student and schedules recall before it is lost.
 
-Two apps are live on the App Store, published by WIVMEAI PRIVATE LIMITED: **[Wivme Student](https://apps.apple.com/app/id6783256650)** and **[Wivme Parent](https://apps.apple.com/app/id6783869622)**.
+Two apps shipped on the App Store and Google Play, published by WIVMEAI PRIVATE LIMITED: **[Wivme Student](https://apps.apple.com/app/id6783256650)** and **[Wivme Parent](https://apps.apple.com/app/id6783869622)**. That first version is now retired.
 
 Five surfaces and eight repositories, largely solo. [The site](https://github.com/Bhargs24/WivmeWebsite), and the prototypes it grew from: **[phase 1](https://github.com/Bhargs24/Wisme-DevPhase1)** · **[phase 2](https://github.com/Bhargs24/Wisme-Dev2)** · **[the research build](https://github.com/Bhargs24/Wisme_ResearchApp2)** · **[research plus the data pipeline](https://github.com/Bhargs24/wisme_researchapp)**
 
